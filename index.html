@@ -13,6 +13,72 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="Assets/styles.css">
+  <style>
+    :root {
+      --c-bronze:        #2284c4;
+      --c-bronze-light:  #3d9fd4;
+      --c-bronze-dark:   #1a6fa0;
+      --c-bronze-subtle: #e8f4fb;
+    }
+    .services {
+      background-color: #ffffff;
+    }
+    .services__title {
+      color: var(--c-black);
+    }
+    .reviews__overlay {
+      background-color: rgba(34, 132, 196, 0.30);
+    }
+    .footer {
+      background-color: #ffffff;
+      border-top: 1px solid #e0e0e0;
+    }
+    .footer__col-title {
+      color: #111111;
+    }
+    .footer__col address p,
+    .footer__col p,
+    .footer__col a,
+    .footer__nav-links a,
+    .footer__tagline {
+      color: #444444;
+    }
+    .footer__bottom {
+      border-top: 1px solid #e0e0e0;
+    }
+    .footer__bottom p {
+      color: #666666;
+    }
+    .svc-card__body {
+      background-color: rgba(34, 132, 196, 0.30);
+    }
+    .eyebrow--light {
+      color: #1a5f8a;
+    }
+    .reviews__quote {
+      color: #2284c4;
+      opacity: 0.6;
+    }
+    .community,
+    .doctor {
+      background-color: #1a6fa0;
+    }
+    .community__text-col,
+    .doctor__text-col {
+      background-color: #1a6fa0;
+    }
+    .community__text-col p,
+    .doctor__text-col p {
+      color: #ffffff;
+    }
+    .doctor__text-col .btn--bronze-outline {
+      border-color: #ffffff;
+    }
+    .doctor__text-col .btn--bronze-outline:hover {
+      background-color: #ffffff;
+      color: #1a6fa0;
+    }
+  </style>
 </head>
 <body>
 
@@ -24,7 +90,7 @@
 
       <!-- Logo -->
       <a href="index.html" class="nav__logo" aria-label="Dr EA Kamalie Dental Surgery — Home">
-        <img src="Assets/images/logo.png" alt="Dr EA Kamalie Dental Surgery" class="nav__logo-img">
+        <img src="Assets\images\logo-new-light.png" alt="Dr EA Kamalie Dental Surgery" class="nav__logo-img">
       </a>
 
       <!-- Hamburger (mobile) -->
@@ -140,7 +206,7 @@
       <a href="services/general-dentistry.html" class="btn btn--bronze-outline fade-up delay-4">Find Out More</a>
     </div>
     <div class="doctor__img-col" aria-hidden="true">
-      <img src="Assets/images/dr.jpg" alt="Dentist with young patient" loading="lazy">
+      <img src="Assets\images\meet the doc.jpg" alt="Dentist with young patient" loading="lazy">
     </div>
 
   </section>
@@ -285,7 +351,7 @@
 
     <div class="reviews__inner">
       <span class="reviews__quote" aria-hidden="true">&ldquo;</span>
-      <span class="eyebrow eyebrow--light fade-up">Patient Stories</span>
+      <span class="eyebrow fade-up" style="color:white;">Patient Stories</span>
       <h2 class="reviews__title fade-up delay-1" id="reviews-heading">
         See What Our Patients<br>Say About Us
       </h2>
@@ -297,12 +363,12 @@
         <svg viewBox="0 0 20 19" fill="currentColor" aria-hidden="true"><path d="M10 0l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 15.1l-6.2 4.2 2.4-7.4L0 7.4h7.6z"/></svg>
       </div>
       <a
-        href="https://www.google.com/search?sca_esv=445be66881b965ae&sxsrf=ANbL-n4gbPOzCFOJS4jC_nAJuHkNpABjzA:1772113617420&kgmid=/g/11vq569v_z&q=Dr+E+A+Kamalie+Dental/Dentist+Surgery+-+21+Atlantic+Road,+Muizenberg,+Cape+Town&shndl=30&source=sh/x/loc/uni/m1/1&kgs=4cdf4154c022a3ff&shem=shrtsdl&utm_source=shrtsdl,sh/x/loc/uni/m1/1#lrd=0x1dcc41ce5920e04b:0x4984d0d2a96bc6d8,1,,,,"
+        href="https://share.google/N0EZnLXTFgM4jzoTE"
         class="btn btn--bronze fade-up delay-3"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Our Reviews
+        Read Our Google Reviews
       </a>
     </div>
   </section>
@@ -317,7 +383,7 @@
       <!-- Brand -->
       <div class="footer__brand">
         <a href="index.html" class="footer__brand-logo" aria-label="Dr EA Kamalie Dental Surgery">
-          <img src="Assets/images/logo.png" alt="Dr EA Kamalie Dental Surgery" class="footer__logo-img">
+          <img src="Assets/images/logo-new-dark.png" alt="Dr EA Kamalie Dental Surgery" class="footer__logo-img">
         </a>
         <p class="footer__tagline">
           Trusted dentist in Muizenberg and Strandfontein offering comprehensive dental care for adults and children.
